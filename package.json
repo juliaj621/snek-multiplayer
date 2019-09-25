@@ -2,11 +2,7 @@
   "name": "snekjs",
   "version": "1.0.4",
   "description": "A terminal-based Snake implementation written in JavaScript (Node.js) 🐍",
-  "author": {
-    "name": "Tania Rascia",
-    "email": "me@taniarascia.com",
-    "url": "https://www.taniarascia.com"
-  },
+  "author": "Tania Rascia <me@taniarascia.com> (https://www.taniarascia.com)",
   "main": "index.js",
   "bin": {
     "snek": "./play.js"
@@ -24,5 +20,15 @@
     "javascript",
     "node"
   ],
-  "private": false
+  "private": false,
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliaj621/snek-multiplayer.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliaj621/snek-multiplayer/issues"
+  },
+  "homepage": "https://github.com/juliaj621/snek-multiplayer#readme"
 }
